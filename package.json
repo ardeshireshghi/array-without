@@ -1,5 +1,5 @@
 {
-  "name": "array-without",
+  "name": "array-without-fast",
   "version": "1.0.0",
   "description": "Fast array without",
   "main": "lib/array-without.js",
