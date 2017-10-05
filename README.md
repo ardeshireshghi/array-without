@@ -1,4 +1,6 @@
 # array-without
+[![codecov](https://codecov.io/gh/ardeshireshghi/array-without/branch/master/graph/badge.svg)](https://codecov.io/gh/ardeshireshghi/array-without)
+
 Lightweight and fast `arrayWithout` which excludes values from array and creates a new copy. It is written with preformance in mind. The speed is comparable to lodash `_.without`: https://jsperf.com/array-without-benchmark-against-lodash
 
 Super quick arrayWithout (Excludes values from array)
