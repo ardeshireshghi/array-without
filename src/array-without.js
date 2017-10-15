@@ -18,17 +18,7 @@ const arrayWithout = (() => {
       includes = objectIncludes;
     }
 
-    const arrCopy = [];
-    const length = arr.length;
-
-    for (let i = 0; i < length; i++) {
-      // If value is not in exclude list
-      if (!includes(withoutValues, arr[i])) {
-        arrCopy.push(arr[i]);
-      }
-    }
-
-    return arrCopy;
+    return arr.filter((e, key) => !includes(withoutValues, arr[key]));
   }
 
   return arrayWithout;
